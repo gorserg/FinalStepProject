@@ -1,4 +1,4 @@
-package org.danit.rest;
+package org.danit.luckfit.rest;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -15,13 +15,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
-import org.danit.model.security.Authority;
-import org.danit.model.security.AuthorityName;
-import org.danit.model.security.User;
-import org.danit.security.JwtTokenUtil;
-import org.danit.security.JwtUser;
-import org.danit.security.JwtUserFactory;
-import org.danit.security.service.JwtUserDetailsService;
+import org.danit.luckfit.model.security.Authority;
+import org.danit.luckfit.model.security.AuthorityName;
+import org.danit.luckfit.model.security.User;
+import org.danit.luckfit.security.JwtTokenUtil;
+import org.danit.luckfit.security.JwtUser;
+import org.danit.luckfit.security.JwtUserFactory;
+import org.danit.luckfit.security.service.JwtUserDetailsService;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.eq;

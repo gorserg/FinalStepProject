@@ -1,4 +1,4 @@
-package org.danit.security;
+package org.danit.luckfit.security;
 
 import java.util.Date;
 
