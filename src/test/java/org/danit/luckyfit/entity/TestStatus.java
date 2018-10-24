@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class StatusTestJunit {
+public class TestStatus {
   @Test
   public void testGetIdSetIdGetNameSetNameToString() {
     Status status = new Status();
